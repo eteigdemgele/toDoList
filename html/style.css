@@ -1,0 +1,52 @@
+body{
+    background-color: #2E78E3;
+    display: flexbox;
+    flex-direction: column;
+   align-items: center;
+   font-size: 1.5rem;
+
+}
+
+#form{
+
+   text-align: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.title{
+
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+.inputField{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap : 20px;
+    margin-top: 80px;
+}
+
+#msg{
+    background-color: grey;
+    border: solid 1px black;
+
+}
+
+button{
+    background-color: grey;
+    border-radius: 20px;
+    border : solid 1px black;
+    font-size: 1.5rem;
+    padding: 5px 15px 5px 15px;
+
+}
+
